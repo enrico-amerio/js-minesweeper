@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campo Minato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="grid">
+        <p>Premi su "Gioca" per iniziare la partita</p>
+      </div>
+    <div>
+      <label for="difficulty" >Cambia difficoltà</label>
+      <select name="" id="difficulty">
+        <option value="0"selected>Facile</option>
+        <option value="1">Normale</option>
+        <option value="2">Difficile</option>
+      </select>
+      <button id="start-btn">Gioca</button>
+      <span id="points">0</span>
+    </div>
+    <div class="popup-container d-none">
+      <div class="popup"><p class="popup-message"></p>
+        <button id="refresh-btn">Rigioca</button>
+      
+      </div>
+
+    </div>
+  </div>
+  <script src="JS/script.js"></script>
+</body>
+</html>
